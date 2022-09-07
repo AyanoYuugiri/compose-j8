@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-graphics/1.2.0-alpha01-dev774/ui-graphics-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-graphics",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-graphics-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 400673,
+          "sha512": "f1187400cb462137e4e02badf3e4cd0bb4314b30a0b4b35a760a9f607977037352a71a6a8af3fef9868f76b2743162b9884a4f346e8c17bce5bb8dc4371c8c24",
+          "sha256": "a5573c7f19b5501c53ec532595b2149b6568624004778a90a0ebd5800f3edca6",
+          "sha1": "c7810bc183bc3ef706ab4a711957bb6eee783e9d",
+          "md5": "254d817016a80cd3f6e719ee568296d6"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-graphics-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 400673,
+          "sha512": "f1187400cb462137e4e02badf3e4cd0bb4314b30a0b4b35a760a9f607977037352a71a6a8af3fef9868f76b2743162b9884a4f346e8c17bce5bb8dc4371c8c24",
+          "sha256": "a5573c7f19b5501c53ec532595b2149b6568624004778a90a0ebd5800f3edca6",
+          "sha1": "c7810bc183bc3ef706ab4a711957bb6eee783e9d",
+          "md5": "254d817016a80cd3f6e719ee568296d6"
+        }
+      ]
+    }
+  ]
+}

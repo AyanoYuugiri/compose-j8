@@ -1,0 +1,357 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.foundation",
+    "module": "foundation-layout",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-layout-metadata-1.2.0-alpha01-dev774.jar",
+          "url": "foundation-layout-1.2.0-alpha01-dev774.jar",
+          "size": 20448,
+          "sha512": "b52127d83e1a8109f93f03c86bfeb641de8502d2e80877fd597236004491fdaaa029c68025f33013a53fe12d46da206044a43a569320db34d0711a11fa9d6d84",
+          "sha256": "59c41e604481c1e6fb99de35bd31f6be680b8d606ba28673ef8a76df913f0ff5",
+          "sha1": "6c5e931950d65a4f33efb323815298930dcce2e3",
+          "md5": "a85a62edafa05d30d7597f79a6c876df"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-desktop/1.2.0-alpha01-dev774/foundation-layout-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-desktop/1.2.0-alpha01-dev774/foundation-layout-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-js/1.2.0-alpha01-dev774/foundation-layout-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-js/1.2.0-alpha01-dev774/foundation-layout-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-macosarm64/1.2.0-alpha01-dev774/foundation-layout-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-macosarm64/1.2.0-alpha01-dev774/foundation-layout-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-macosx64/1.2.0-alpha01-dev774/foundation-layout-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-macosx64/1.2.0-alpha01-dev774/foundation-layout-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitarm64/1.2.0-alpha01-dev774/foundation-layout-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitarm64/1.2.0-alpha01-dev774/foundation-layout-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitsimarm64/1.2.0-alpha01-dev774/foundation-layout-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitsimarm64/1.2.0-alpha01-dev774/foundation-layout-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitx64/1.2.0-alpha01-dev774/foundation-layout-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-layout-uikitx64/1.2.0-alpha01-dev774/foundation-layout-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.foundation",
+        "module": "foundation-layout-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    }
+  ]
+}

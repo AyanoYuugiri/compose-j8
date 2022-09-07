@@ -1,0 +1,371 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.animation",
+    "module": "animation-core",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-metadata-1.2.0-alpha01-dev774.jar",
+          "url": "animation-core-1.2.0-alpha01-dev774.jar",
+          "size": 23809,
+          "sha512": "9502d565a3305bd0df6d2dcc68f7d22007cdb93ab8dce413d89e0ae8c5bf69d0a040c4a54616219584e29f426822c036f10ac3cdd2f4af1a2237f991fb852708",
+          "sha256": "d07d9e44852d096ac61c15dfe0f357edcacaeb0f557351abeea94f575ba3b3ed",
+          "sha1": "13fe4608d00e479b960a6e2be93cc6633f8b60a7",
+          "md5": "276b8cba0f97c5d9d198ff9ee7d6bcb4"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-desktop/1.2.0-alpha01-dev774/animation-core-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-desktop/1.2.0-alpha01-dev774/animation-core-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../animation-core-js/1.2.0-alpha01-dev774/animation-core-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../animation-core-js/1.2.0-alpha01-dev774/animation-core-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-macosarm64/1.2.0-alpha01-dev774/animation-core-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-macosarm64/1.2.0-alpha01-dev774/animation-core-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-macosx64/1.2.0-alpha01-dev774/animation-core-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-macosx64/1.2.0-alpha01-dev774/animation-core-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitarm64/1.2.0-alpha01-dev774/animation-core-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitarm64/1.2.0-alpha01-dev774/animation-core-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitsimarm64/1.2.0-alpha01-dev774/animation-core-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitsimarm64/1.2.0-alpha01-dev774/animation-core-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitx64/1.2.0-alpha01-dev774/animation-core-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-uikitx64/1.2.0-alpha01-dev774/animation-core-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.animation",
+        "module": "animation-core-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    }
+  ]
+}

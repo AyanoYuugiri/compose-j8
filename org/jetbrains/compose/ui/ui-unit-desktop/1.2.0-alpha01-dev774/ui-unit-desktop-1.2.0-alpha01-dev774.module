@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-unit/1.2.0-alpha01-dev774/ui-unit-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-unit",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-unit-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 68073,
+          "sha512": "eaa240f6d02bae4016c7ce0c070be8106f7779deaa456530cc5ab34c614235d079741959aabc45f5c6c2a387605639e0f0f1e960d62a35497ada508895867cb8",
+          "sha256": "b9a82caf4188544fc8f9ccf120f2dd8003571e2147150165c6a74c00fcba63c8",
+          "sha1": "ff4c3051e4848a52c8b0034a9320c18555916ddf",
+          "md5": "c838eaa73f06b83a6444558ac917a56d"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-unit-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 68073,
+          "sha512": "eaa240f6d02bae4016c7ce0c070be8106f7779deaa456530cc5ab34c614235d079741959aabc45f5c6c2a387605639e0f0f1e960d62a35497ada508895867cb8",
+          "sha256": "b9a82caf4188544fc8f9ccf120f2dd8003571e2147150165c6a74c00fcba63c8",
+          "sha1": "ff4c3051e4848a52c8b0034a9320c18555916ddf",
+          "md5": "c838eaa73f06b83a6444558ac917a56d"
+        }
+      ]
+    }
+  ]
+}

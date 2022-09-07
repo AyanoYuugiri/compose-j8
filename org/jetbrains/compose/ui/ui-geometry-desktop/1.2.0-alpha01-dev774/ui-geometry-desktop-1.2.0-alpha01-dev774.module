@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-geometry/1.2.0-alpha01-dev774/ui-geometry-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-geometry",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-geometry-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-geometry-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 37833,
+          "sha512": "50bf71a9b8195fac328e507307c1536e90632395b5d754aa5635017a573ff4576106ad8ca14f92ee118882c1a003765b35533eeecffb1f6158e0b4b89702080a",
+          "sha256": "eafb98efa790aa0a9621e8db9b6150be091e1f377cab4346fa86aa1f0f6d552c",
+          "sha1": "05b8ff007af95d69733a94eb1ac4e5a99ac970a1",
+          "md5": "c4f336d0fc1cb6c2728c845940985b3c"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-geometry-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-geometry-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 37833,
+          "sha512": "50bf71a9b8195fac328e507307c1536e90632395b5d754aa5635017a573ff4576106ad8ca14f92ee118882c1a003765b35533eeecffb1f6158e0b4b89702080a",
+          "sha256": "eafb98efa790aa0a9621e8db9b6150be091e1f377cab4346fa86aa1f0f6d552c",
+          "sha1": "05b8ff007af95d69733a94eb1ac4e5a99ac970a1",
+          "md5": "c4f336d0fc1cb6c2728c845940985b3c"
+        }
+      ]
+    }
+  ]
+}

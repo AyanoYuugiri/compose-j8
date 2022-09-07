@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-icons-core/1.2.0-alpha01-dev774/material-icons-core-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.material",
+    "module": "material-icons-core",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "material-icons-core-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 725140,
+          "sha512": "7ff24d5233afe59fcdc14208577e977acc0494aec6ff9c075abd73375d0580362d92b14cc75a3d1d01fb48404d013252b28e8522c9d2cffe7c2e00a4565482a9",
+          "sha256": "fa400014102b141d277ce8b0ae1d35943e7f83ac7a52a1865290b1f5fca77332",
+          "sha1": "43cf3ae19335f708894027ba460c252f55b6663e",
+          "md5": "36f68265ff9f9733b116f398b9d424c5"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "material-icons-core-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 725140,
+          "sha512": "7ff24d5233afe59fcdc14208577e977acc0494aec6ff9c075abd73375d0580362d92b14cc75a3d1d01fb48404d013252b28e8522c9d2cffe7c2e00a4565482a9",
+          "sha256": "fa400014102b141d277ce8b0ae1d35943e7f83ac7a52a1865290b1f5fca77332",
+          "sha1": "43cf3ae19335f708894027ba460c252f55b6663e",
+          "md5": "36f68265ff9f9733b116f398b9d424c5"
+        }
+      ]
+    }
+  ]
+}

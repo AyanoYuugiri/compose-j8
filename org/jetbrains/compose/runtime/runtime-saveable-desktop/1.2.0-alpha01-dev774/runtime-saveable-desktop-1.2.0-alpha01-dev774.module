@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-saveable/1.2.0-alpha01-dev774/runtime-saveable-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.runtime",
+    "module": "runtime-saveable",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "runtime-saveable-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 52873,
+          "sha512": "4a8416caa6013d7da73b0543c29c655d4daab1fd2b7ed40c746fa98c4597c8f7fc5e09881e43523e1050aff6ae0c369f1d1271879a4ed1e023337a72982b78ec",
+          "sha256": "f0b1a2d7fb6ca14639ab329bc0d9d70eb5896bc8719340efd1611409cadc3fb6",
+          "sha1": "a04a7d1e665d71be67544457882378eca362a151",
+          "md5": "de79a57a2a9e78d49001cc81f0f305f4"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "runtime-saveable-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 52873,
+          "sha512": "4a8416caa6013d7da73b0543c29c655d4daab1fd2b7ed40c746fa98c4597c8f7fc5e09881e43523e1050aff6ae0c369f1d1271879a4ed1e023337a72982b78ec",
+          "sha256": "f0b1a2d7fb6ca14639ab329bc0d9d70eb5896bc8719340efd1611409cadc3fb6",
+          "sha1": "a04a7d1e665d71be67544457882378eca362a151",
+          "md5": "de79a57a2a9e78d49001cc81f0f305f4"
+        }
+      ]
+    }
+  ]
+}

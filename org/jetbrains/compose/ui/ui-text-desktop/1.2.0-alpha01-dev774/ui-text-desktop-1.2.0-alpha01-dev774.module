@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-text/1.2.0-alpha01-dev774/ui-text-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-text",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-text-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 566418,
+          "sha512": "32f51bf89adb96bca87aad9bfc6a2f55b868425f9e2d726a67dee2aac9b7794bb4a501ed8b1376e6afcffa2ce15fd0876fa4676a8f8a9139ae459291bc6df9e8",
+          "sha256": "1c0d6ea38ac7835e72055c484f1254e6ad9aa42c80dae7af9a4a3626532cdbd0",
+          "sha1": "ee7a835ec2f7d95eb2d78c694aaaf2f71edf2920",
+          "md5": "91b26744947179030e1917f019b06ee1"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-text-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 566418,
+          "sha512": "32f51bf89adb96bca87aad9bfc6a2f55b868425f9e2d726a67dee2aac9b7794bb4a501ed8b1376e6afcffa2ce15fd0876fa4676a8f8a9139ae459291bc6df9e8",
+          "sha256": "1c0d6ea38ac7835e72055c484f1254e6ad9aa42c80dae7af9a4a3626532cdbd0",
+          "sha1": "ee7a835ec2f7d95eb2d78c694aaaf2f71edf2920",
+          "md5": "91b26744947179030e1917f019b06ee1"
+        }
+      ]
+    }
+  ]
+}

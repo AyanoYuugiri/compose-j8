@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../desktop/1.2.0-alpha01-dev774/desktop-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.desktop",
+    "module": "desktop",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "desktop-jvm-1.2.0-alpha01-dev774.jar",
+          "url": "desktop-jvm-1.2.0-alpha01-dev774.jar",
+          "size": 7722,
+          "sha512": "d0dde3de3ab03788037a170d88ff79ecae31889d2d2c273c43fdc20404808f35086ae88c430d7e4b9bd028362193f2741f0c4c07d19e462399b0dd5b11a6ae86",
+          "sha256": "8248b892fa3c16e3fb76d394f6b8ba72efae5e42910530f8eb1d2cb2cf38507b",
+          "sha1": "b40f90472dd0d318e490e9b42a45e1aa2787ea52",
+          "md5": "7f7e146d46b0c68060c5ea21fc31b5bd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "desktop-jvm-1.2.0-alpha01-dev774.jar",
+          "url": "desktop-jvm-1.2.0-alpha01-dev774.jar",
+          "size": 7722,
+          "sha512": "d0dde3de3ab03788037a170d88ff79ecae31889d2d2c273c43fdc20404808f35086ae88c430d7e4b9bd028362193f2741f0c4c07d19e462399b0dd5b11a6ae86",
+          "sha256": "8248b892fa3c16e3fb76d394f6b8ba72efae5e42910530f8eb1d2cb2cf38507b",
+          "sha1": "b40f90472dd0d318e490e9b42a45e1aa2787ea52",
+          "md5": "7f7e146d46b0c68060c5ea21fc31b5bd"
+        }
+      ]
+    }
+  ]
+}

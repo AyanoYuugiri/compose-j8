@@ -1,0 +1,343 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.runtime",
+    "module": "runtime-saveable",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-metadata-1.2.0-alpha01-dev774.jar",
+          "url": "runtime-saveable-1.2.0-alpha01-dev774.jar",
+          "size": 6136,
+          "sha512": "cf17cf04e19b521e1f95e6ad900cb80e845fdd419734bd2be7fe9e1dd481a3aa36dfb0551e4d748df00395caaaec0fcf4a906244e1a5b2189b923331d5f9a40b",
+          "sha256": "03ea2554e5d00baf1bd3ccebe17957d320ad33b6e80002a5cf436d345267e9a3",
+          "sha1": "63bfb480c1b87b877db516052bab3ca95d3dc374",
+          "md5": "91d4734dab2f976336a0bad5db264e7b"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-desktop/1.2.0-alpha01-dev774/runtime-saveable-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-desktop/1.2.0-alpha01-dev774/runtime-saveable-desktop-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-desktop",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-js/1.2.0-alpha01-dev774/runtime-saveable-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-js/1.2.0-alpha01-dev774/runtime-saveable-js-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-js",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-macosarm64/1.2.0-alpha01-dev774/runtime-saveable-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-macosarm64/1.2.0-alpha01-dev774/runtime-saveable-macosarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-macosarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-macosx64/1.2.0-alpha01-dev774/runtime-saveable-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-macosx64/1.2.0-alpha01-dev774/runtime-saveable-macosx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-macosx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitarm64/1.2.0-alpha01-dev774/runtime-saveable-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitarm64/1.2.0-alpha01-dev774/runtime-saveable-uikitarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitsimarm64/1.2.0-alpha01-dev774/runtime-saveable-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitSimArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitsimarm64/1.2.0-alpha01-dev774/runtime-saveable-uikitsimarm64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitsimarm64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitx64/1.2.0-alpha01-dev774/runtime-saveable-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    },
+    {
+      "name": "uikitX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-saveable-uikitx64/1.2.0-alpha01-dev774/runtime-saveable-uikitx64-1.2.0-alpha01-dev774.module",
+        "group": "org.jetbrains.compose.runtime",
+        "module": "runtime-saveable-uikitx64",
+        "version": "1.2.0-alpha01-dev774"
+      }
+    }
+  ]
+}

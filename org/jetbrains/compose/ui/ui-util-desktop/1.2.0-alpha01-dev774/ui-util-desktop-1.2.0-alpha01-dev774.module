@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-util/1.2.0-alpha01-dev774/ui-util-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-util",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-util-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-util-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 5941,
+          "sha512": "40f17e762e8baaed1ce1d5a005dcaee11d7775a296ec1e61be7c02d220a692f1f11f2f164996211df641331beefab1a2ca1dd619e3b1e24de0269579504948a7",
+          "sha256": "518a6042ef106536b8f77d8127f2ea7b7b9434b76809703e61f7eedc8835cd29",
+          "sha1": "8d614e93d49b509f9630b5cf7bd2dcb01a5da29a",
+          "md5": "91695551374750756a335e065a6eb7b4"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-util-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-util-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 5941,
+          "sha512": "40f17e762e8baaed1ce1d5a005dcaee11d7775a296ec1e61be7c02d220a692f1f11f2f164996211df641331beefab1a2ca1dd619e3b1e24de0269579504948a7",
+          "sha256": "518a6042ef106536b8f77d8127f2ea7b7b9434b76809703e61f7eedc8835cd29",
+          "sha1": "8d614e93d49b509f9630b5cf7bd2dcb01a5da29a",
+          "md5": "91695551374750756a335e065a6eb7b4"
+        }
+      ]
+    }
+  ]
+}

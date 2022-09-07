@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation/1.2.0-alpha01-dev774/foundation-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.foundation",
+    "module": "foundation",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "foundation-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 2220655,
+          "sha512": "c308c6cabb5e07c76c46fe0973a45b269ae33e5760df123dabee10865a3fabe2b1e9eb1fbeda5f8183eba80599936f10ec55133950176d414c3933704fe45d49",
+          "sha256": "9587b6656901d6d77aceaf8d02ff54287e172700ced776856198079adc15ff81",
+          "sha1": "463e7f42778f92c24336b375e0087644ffd23a35",
+          "md5": "711ef42e7c8451e934501258744456f1"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "foundation-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 2220655,
+          "sha512": "c308c6cabb5e07c76c46fe0973a45b269ae33e5760df123dabee10865a3fabe2b1e9eb1fbeda5f8183eba80599936f10ec55133950176d414c3933704fe45d49",
+          "sha256": "9587b6656901d6d77aceaf8d02ff54287e172700ced776856198079adc15ff81",
+          "sha1": "463e7f42778f92c24336b375e0087644ffd23a35",
+          "md5": "711ef42e7c8451e934501258744456f1"
+        }
+      ]
+    }
+  ]
+}

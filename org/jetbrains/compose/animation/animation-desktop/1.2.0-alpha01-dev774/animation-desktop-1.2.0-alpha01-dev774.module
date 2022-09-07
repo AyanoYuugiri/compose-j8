@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../animation/1.2.0-alpha01-dev774/animation-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.animation",
+    "module": "animation",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "animation-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 280539,
+          "sha512": "f7d8c496d3d6a998efc6e450f1ae01d204daac24133f332ba18ab3b6bd8fbd8e32fa9be4beba90668d634e046c3b2bc1d07cda05f3277440393692b14ed1661b",
+          "sha256": "fd928926c2a4ba271ff10e0537ac42b398554fc5be041b96289d076ab8a022b1",
+          "sha1": "2980f259e82fac7ad0ad6479e46163279695d08f",
+          "md5": "8cdacb667176f633b6d28e31c1d28ea6"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "animation-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 280539,
+          "sha512": "f7d8c496d3d6a998efc6e450f1ae01d204daac24133f332ba18ab3b6bd8fbd8e32fa9be4beba90668d634e046c3b2bc1d07cda05f3277440393692b14ed1661b",
+          "sha256": "fd928926c2a4ba271ff10e0537ac42b398554fc5be041b96289d076ab8a022b1",
+          "sha1": "2980f259e82fac7ad0ad6479e46163279695d08f",
+          "md5": "8cdacb667176f633b6d28e31c1d28ea6"
+        }
+      ]
+    }
+  ]
+}

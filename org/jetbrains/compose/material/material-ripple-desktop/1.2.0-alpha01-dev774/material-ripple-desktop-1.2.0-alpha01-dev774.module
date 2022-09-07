@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-ripple/1.2.0-alpha01-dev774/material-ripple-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.material",
+    "module": "material-ripple",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "material-ripple-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 53605,
+          "sha512": "42ded3115ea9ab4fb8bb69c7c2112dadaa6636a319dcdea4722014847573fd88c549e39f833729b474b5d6a68efc8e657e35fa43b0ef8ba8acdfc6092e500bb4",
+          "sha256": "e6eb0a2986cf45dd1a04a374ef6f4fecb0ea3522f7125d6c3c17fd26904e3c1b",
+          "sha1": "3c9c18fbfc5df768581e0ce73d114c9975cec011",
+          "md5": "b75486d6b72c074ae5b8a08c025eb1f8"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "material-ripple-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 53605,
+          "sha512": "42ded3115ea9ab4fb8bb69c7c2112dadaa6636a319dcdea4722014847573fd88c549e39f833729b474b5d6a68efc8e657e35fa43b0ef8ba8acdfc6092e500bb4",
+          "sha256": "e6eb0a2986cf45dd1a04a374ef6f4fecb0ea3522f7125d6c3c17fd26904e3c1b",
+          "sha1": "3c9c18fbfc5df768581e0ce73d114c9975cec011",
+          "md5": "b75486d6b72c074ae5b8a08c025eb1f8"
+        }
+      ]
+    }
+  ]
+}

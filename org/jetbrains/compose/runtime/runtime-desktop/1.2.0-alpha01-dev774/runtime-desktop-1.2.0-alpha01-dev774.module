@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime/1.2.0-alpha01-dev774/runtime-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.runtime",
+    "module": "runtime",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "runtime-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 1017553,
+          "sha512": "14d4c23db3c233f45df7776e34a1c17b56a7bcfbb4a68f846ef5407bc791116a08d9129451ec830325a87444c716aa2fd259fcf8d862cbb60df2380461c7666a",
+          "sha256": "3d42c85ce83631f503bf242533a1f46c7face1a7021fe76c7371fbbabcfae94d",
+          "sha1": "641ffea51b35e78dea52d93ab585c449f3e49284",
+          "md5": "0ac7fcd3052b8655b056a30ed6b9049e"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "runtime-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 1017553,
+          "sha512": "14d4c23db3c233f45df7776e34a1c17b56a7bcfbb4a68f846ef5407bc791116a08d9129451ec830325a87444c716aa2fd259fcf8d862cbb60df2380461c7666a",
+          "sha256": "3d42c85ce83631f503bf242533a1f46c7face1a7021fe76c7371fbbabcfae94d",
+          "sha1": "641ffea51b35e78dea52d93ab585c449f3e49284",
+          "md5": "0ac7fcd3052b8655b056a30ed6b9049e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-tooling/1.2.0-alpha01-dev774/ui-tooling-1.2.0-alpha01-dev774.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui-tooling",
+    "version": "1.2.0-alpha01-dev774",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-tooling-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 24961,
+          "sha512": "0fa9383dde345f504493d68f1c1d40f9dd63a2e175a1ee5a1559976fc47846e1fc426df81d8ab3fb8c00fbd0b5946948dfe189ea9b499ad31da2f576379b6d80",
+          "sha256": "5e2df5e1f5d90b8dee9864578cd0736fa92d20ab0e299361208b7f1a5223398c",
+          "sha1": "df7f2680e76a55b990d080f2fe935c26e51c3822",
+          "md5": "aea9d4841724f795cb97fc3e4603ac69"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.2.0-alpha01-dev774"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-desktop-1.2.0-alpha01-dev774.jar",
+          "url": "ui-tooling-desktop-1.2.0-alpha01-dev774.jar",
+          "size": 24961,
+          "sha512": "0fa9383dde345f504493d68f1c1d40f9dd63a2e175a1ee5a1559976fc47846e1fc426df81d8ab3fb8c00fbd0b5946948dfe189ea9b499ad31da2f576379b6d80",
+          "sha256": "5e2df5e1f5d90b8dee9864578cd0736fa92d20ab0e299361208b7f1a5223398c",
+          "sha1": "df7f2680e76a55b990d080f2fe935c26e51c3822",
+          "md5": "aea9d4841724f795cb97fc3e4603ac69"
+        }
+      ]
+    }
+  ]
+}

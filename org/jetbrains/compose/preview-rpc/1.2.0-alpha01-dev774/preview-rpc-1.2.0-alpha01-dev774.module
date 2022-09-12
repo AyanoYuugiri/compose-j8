@@ -29,11 +29,11 @@
         {
           "name": "preview-rpc-1.2.0-alpha01-dev774.jar",
           "url": "preview-rpc-1.2.0-alpha01-dev774.jar",
-          "size": 126897,
-          "sha512": "161fde3d223b6da51ebe70f0cb3d33e9a10fd7965589fe25056eca5a0c3b4e6c729624d153895f6e652f7ee7a62848c6c470717037fde72f5efad9129a72df1b",
-          "sha256": "7848082a376f0ab0b2bcb7dd21253c1735de30febf3c1983ec63d497c5da967e",
-          "sha1": "f72ff3c5e4e181cd871f703c8c2c2af8ddb1c77e",
-          "md5": "1f944b56a166090073ea250e6ce77953"
+          "size": 128234,
+          "sha512": "598be5f142beb1a2f2292c2b1dd55d5a0b47227ef1a6206f047520866547dd0d382a133f897265cbc3733e694995b0d089b0bb7b2ec5aab6b7da338216526299",
+          "sha256": "afd7b2713b56d795002f800e80912312943ffb3168b61642b7701d7a5b37859b",
+          "sha1": "89ffc1809d0048d7546352ec4b3a1c07542db9bd",
+          "md5": "b056b7d73b3aa433a834983d1415cc7b"
         }
       ]
     },
@@ -61,11 +61,11 @@
         {
           "name": "preview-rpc-1.2.0-alpha01-dev774.jar",
           "url": "preview-rpc-1.2.0-alpha01-dev774.jar",
-          "size": 126897,
-          "sha512": "161fde3d223b6da51ebe70f0cb3d33e9a10fd7965589fe25056eca5a0c3b4e6c729624d153895f6e652f7ee7a62848c6c470717037fde72f5efad9129a72df1b",
-          "sha256": "7848082a376f0ab0b2bcb7dd21253c1735de30febf3c1983ec63d497c5da967e",
-          "sha1": "f72ff3c5e4e181cd871f703c8c2c2af8ddb1c77e",
-          "md5": "1f944b56a166090073ea250e6ce77953"
+          "size": 128234,
+          "sha512": "598be5f142beb1a2f2292c2b1dd55d5a0b47227ef1a6206f047520866547dd0d382a133f897265cbc3733e694995b0d089b0bb7b2ec5aab6b7da338216526299",
+          "sha256": "afd7b2713b56d795002f800e80912312943ffb3168b61642b7701d7a5b37859b",
+          "sha1": "89ffc1809d0048d7546352ec4b3a1c07542db9bd",
+          "md5": "b056b7d73b3aa433a834983d1415cc7b"
         }
       ]
     },

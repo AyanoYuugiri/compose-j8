@@ -38,11 +38,11 @@
         {
           "name": "compose-gradle-plugin-1.2.0-alpha01-dev774.jar",
           "url": "compose-gradle-plugin-1.2.0-alpha01-dev774.jar",
-          "size": 3280764,
-          "sha512": "b1d950875aab5917bfd11af810289912bc1a42cf1870d3792925e9e26e748402d551a42adac202a15034bddbb2ba4299fcbab0e73489d7628e3dcd802b2dd02d",
-          "sha256": "3661fa8c598a05dd0e458600e8ad03ff0f50c2acdc08e0261d79d7edd42006b1",
-          "sha1": "df7236fb3176fecd84f7841d05e4c56ce43290ab",
-          "md5": "321c2d450a34c5b3fdac1913186bd6fd"
+          "size": 4310485,
+          "sha512": "878281d78b1dbd4afb9c3912af5282064ccbb73c1a482eff08e9b007182811b67e7dd5b0ebcc6a7c75eb0c54c358bc96331f12661d003ba40bd4cbe07c166ef2",
+          "sha256": "361e363742cbde7a3736eda1ba0a1e7eb889805c00ea40248f04b72faa00c18e",
+          "sha1": "031908e0faa37fe15167f183581762de430df678",
+          "md5": "3835fcbfb6bcb0290eade5c641346a39"
         }
       ]
     },
@@ -70,11 +70,11 @@
         {
           "name": "compose-gradle-plugin-1.2.0-alpha01-dev774.jar",
           "url": "compose-gradle-plugin-1.2.0-alpha01-dev774.jar",
-          "size": 3280764,
-          "sha512": "b1d950875aab5917bfd11af810289912bc1a42cf1870d3792925e9e26e748402d551a42adac202a15034bddbb2ba4299fcbab0e73489d7628e3dcd802b2dd02d",
-          "sha256": "3661fa8c598a05dd0e458600e8ad03ff0f50c2acdc08e0261d79d7edd42006b1",
-          "sha1": "df7236fb3176fecd84f7841d05e4c56ce43290ab",
-          "md5": "321c2d450a34c5b3fdac1913186bd6fd"
+          "size": 4310485,
+          "sha512": "878281d78b1dbd4afb9c3912af5282064ccbb73c1a482eff08e9b007182811b67e7dd5b0ebcc6a7c75eb0c54c358bc96331f12661d003ba40bd4cbe07c166ef2",
+          "sha256": "361e363742cbde7a3736eda1ba0a1e7eb889805c00ea40248f04b72faa00c18e",
+          "sha1": "031908e0faa37fe15167f183581762de430df678",
+          "md5": "3835fcbfb6bcb0290eade5c641346a39"
         }
       ]
     },
@@ -130,11 +130,11 @@
         {
           "name": "compose-gradle-plugin-1.2.0-alpha01-dev774-shadow.jar",
           "url": "compose-gradle-plugin-1.2.0-alpha01-dev774-shadow.jar",
-          "size": 3280194,
-          "sha512": "edc2cea2e2de5ca37e5a20e5733bd5b813b49518d92ef44cafcb439582673b041d074d7c0f6e661afbb92d8918e65400128211bc7c097295a297bea3e6913acf",
-          "sha256": "ca14e5bb5dad20d5618c48b1252716ee2fb12b8e3ee620a5472ed29a7ee9f91a",
-          "sha1": "2672670f6865d6cc7b68b1298eb12b12bd6d45a1",
-          "md5": "affd3f1995e1600cede2abf662e57552"
+          "size": 3252199,
+          "sha512": "4a7cd4e79b6199a958ddef9255853492df126e10e332503808bfe69a19e36089b5d9c8f1a84c344b79d9a3d911e809cc56e236307ed21a81c4590f0285c8aad0",
+          "sha256": "9ea4711bcf9a60dd393a72fb2af45c4730e1668823e59faab0e992820c445759",
+          "sha1": "132ebbd430f6c55be9e06f065aaf279285383155",
+          "md5": "657f4a34341f1325568a5a622a8c41db"
         }
       ]
     }

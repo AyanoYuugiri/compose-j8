@@ -1,14 +1,13 @@
 package me.yuugiri.ap.asm;
 
 import me.yuugiri.ap.util.ClassUtil;
+import org.objectweb.asm.Label;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
 
 public final class ClassPatcher {
 
@@ -18,15 +17,20 @@ public final class ClassPatcher {
         node.version = 52; // downgrade to java 8
         AtomicInteger generated = new AtomicInteger();
 
-        node.methods.stream().collect(Collectors.toList())
+        new ArrayList<>(node.methods)
                 .forEach(methodNode -> {
                     for (int i = 0; i < methodNode.instructions.size(); ++i) {
                         final AbstractInsnNode abstractInsnNode = methodNode.instructions.get(i);
                         if (abstractInsnNode instanceof MethodInsnNode) {
                             final MethodInsnNode min = (MethodInsnNode) abstractInsnNode;
                             if (min.owner.equals("java/nio/ByteBuffer") && min.name.equals("position") && min.desc.equals("(I)Ljava/nio/ByteBuffer;")) {
-                                System.out.println("[!] Patched ByteBuffer-0");
                                 min.desc = "(I)Ljava/nio/Buffer;";
+                            } else if (min.name.equals("reachabilityFence") && min.desc.equals("(Ljava/lang/Object;)V")) {
+                                String generatedName = "$Reference" + generated;
+                                generated.getAndIncrement();
+                                genReachFence(node, generatedName);
+                                min.owner = node.name;
+                                min.name = generatedName;
                             }
                         } else if (abstractInsnNode instanceof InvokeDynamicInsnNode) {
                             final InvokeDynamicInsnNode idin = (InvokeDynamicInsnNode) abstractInsnNode;
@@ -51,8 +55,17 @@ public final class ClassPatcher {
         return ClassUtil.writeClass(node);
     }
 
+    private static void genReachFence(ClassNode node, String methodName) {
+        MethodNode method = new MethodNode(9, methodName, "(Ljava/lang/Object;)V", null, new String[0]);
+
+        method.visitLabel(new Label());
+        method.visitInsn(Opcodes.RETURN);
+        method.visitLabel(new Label());
+
+        node.methods.add(method);
+    }
+
     private static void genMethodConcat(ClassNode node, String methodName, String methodDesc, String template) {
-//        System.out.println(node.name);
         MethodNode method = new MethodNode(9, methodName, methodDesc, null, new String[0]);
         List<AbstractInsnNode> nodes = new ArrayList<>();
         nodes.add(new TypeInsnNode(Opcodes.NEW, "java/lang/StringBuilder"));
@@ -120,9 +133,5 @@ public final class ClassPatcher {
                 nodes.add(new MethodInsnNode(Opcodes.INVOKEVIRTUAL, "java/lang/StringBuilder", "append", "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"));
             }
         }
-    }
-
-    private static String a(boolean a) {
-        return "a" + a;
     }
 }

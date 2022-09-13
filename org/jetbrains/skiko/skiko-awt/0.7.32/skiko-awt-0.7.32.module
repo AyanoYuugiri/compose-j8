@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../skiko/0.7.32/skiko-0.7.32.module",
+    "group": "org.jetbrains.skiko",
+    "module": "skiko",
+    "version": "0.7.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "awtApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skiko-awt-0.7.32.jar",
+          "url": "skiko-awt-0.7.32.jar",
+          "size": 1148257,
+          "sha512": "b165a13a59de220385f0de2ea25bc3415eb91ce1c08a89ec244e574c3d7245ff37f92ccf8b99af2f38d29e788b5118a13c9d8a18b3fc90ad8b3321fbc6f525ce",
+          "sha256": "771cb284db14349d1d037f132e577f27863d6d953f83b3a45725fb5f4fda50cf",
+          "sha1": "c5461a53bea322d3a3f4b985f1436f26a25d2d53",
+          "md5": "7347afead82175a78bc8f8dfb0a9f0a3"
+        }
+      ]
+    },
+    {
+      "name": "awtRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skiko-awt-0.7.32.jar",
+          "url": "skiko-awt-0.7.32.jar",
+          "size": 1148257,
+          "sha512": "b165a13a59de220385f0de2ea25bc3415eb91ce1c08a89ec244e574c3d7245ff37f92ccf8b99af2f38d29e788b5118a13c9d8a18b3fc90ad8b3321fbc6f525ce",
+          "sha256": "771cb284db14349d1d037f132e577f27863d6d953f83b3a45725fb5f4fda50cf",
+          "sha1": "c5461a53bea322d3a3f4b985f1436f26a25d2d53",
+          "md5": "7347afead82175a78bc8f8dfb0a9f0a3"
+        }
+      ]
+    }
+  ]
+}

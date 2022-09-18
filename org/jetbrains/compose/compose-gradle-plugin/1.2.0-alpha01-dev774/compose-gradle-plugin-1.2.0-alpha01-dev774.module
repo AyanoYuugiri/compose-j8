@@ -117,26 +117,6 @@
           "md5": "63b45779c2c0e0a8dfa2885fe8b1c45b"
         }
       ]
-    },
-    {
-      "name": "shadowRuntimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "shadowed",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "compose-gradle-plugin-1.2.0-alpha01-dev774-shadow.jar",
-          "url": "compose-gradle-plugin-1.2.0-alpha01-dev774-shadow.jar",
-          "size": 3252199,
-          "sha512": "4a7cd4e79b6199a958ddef9255853492df126e10e332503808bfe69a19e36089b5d9c8f1a84c344b79d9a3d911e809cc56e236307ed21a81c4590f0285c8aad0",
-          "sha256": "9ea4711bcf9a60dd393a72fb2af45c4730e1668823e59faab0e992820c445759",
-          "sha1": "132ebbd430f6c55be9e06f065aaf279285383155",
-          "md5": "657f4a34341f1325568a5a622a8c41db"
-        }
-      ]
     }
   ]
 }

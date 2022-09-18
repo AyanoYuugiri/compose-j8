@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../skiko/0.7.32/skiko-0.7.32.module",
+    "url": "../../skiko/0.7.32-edit/skiko-0.7.32-edit.module",
     "group": "org.jetbrains.skiko",
     "module": "skiko",
-    "version": "0.7.32",
+    "version": "0.7.32-edit",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,8 +34,8 @@
       ],
       "files": [
         {
-          "name": "skiko-awt-0.7.32.jar",
-          "url": "skiko-awt-0.7.32.jar",
+          "name": "skiko-awt-0.7.32-edit.jar",
+          "url": "skiko-awt-0.7.32-edit.jar",
           "size": 1148257,
           "sha512": "b165a13a59de220385f0de2ea25bc3415eb91ce1c08a89ec244e574c3d7245ff37f92ccf8b99af2f38d29e788b5118a13c9d8a18b3fc90ad8b3321fbc6f525ce",
           "sha256": "771cb284db14349d1d037f132e577f27863d6d953f83b3a45725fb5f4fda50cf",
@@ -84,8 +84,8 @@
       ],
       "files": [
         {
-          "name": "skiko-awt-0.7.32.jar",
-          "url": "skiko-awt-0.7.32.jar",
+          "name": "skiko-awt-0.7.32-edit.jar",
+          "url": "skiko-awt-0.7.32-edit.jar",
           "size": 1148257,
           "sha512": "b165a13a59de220385f0de2ea25bc3415eb91ce1c08a89ec244e574c3d7245ff37f92ccf8b99af2f38d29e788b5118a13c9d8a18b3fc90ad8b3321fbc6f525ce",
           "sha256": "771cb284db14349d1d037f132e577f27863d6d953f83b3a45725fb5f4fda50cf",
